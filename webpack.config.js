@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   mode: 'production',
   entry: {
-    cloudyUI: './lib/index.tsx'
+    index: './lib/index.tsx'
   },
   output: {
     path: path.resolve(__dirname, 'dist/lib'),
